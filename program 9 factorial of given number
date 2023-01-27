@@ -5,7 +5,7 @@ printf("enter the number:");
 scanf("%d",&num);
 for(i=0;i<=num;i++)
 {
-fact=fact+i;
+fact=fact*i;
 }
 printf("The Factorial of number %d is:%d",num,fact);
 return 0;
